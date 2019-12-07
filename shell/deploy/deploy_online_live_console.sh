@@ -31,7 +31,7 @@ mvn clean package -P prod
 cd $TARGET_HOME
 rm -rf $TARGET_HOME/console.tar.gz
 tar czvf $TARGET_HOME/console.tar.gz $TARGET_HOME/live-console/*
-scp $TARGET_HOME/console.tar.gz root@111.223.42.129:/usr/local/apache-tomcat-8.0.35/webapps/ROOT/
+scp $TARGET_HOME/console.tar.gz root@host:/usr/local/apache-tomcat-8.0.35/webapps/ROOT/
 
 echo "Done."
 echo ""

@@ -14,7 +14,7 @@ git pull origin linelive
 
 rm -rf $BUILD_HOME/web.tar.gz
 tar czvf $BUILD_HOME/web.tar.gz $BUILD_HOME/*
-scp $BUILD_HOME/web.tar.gz root@111.223.42.129:/etc/nginx/html/
+scp $BUILD_HOME/web.tar.gz root@host:/etc/nginx/html/
 
 echo "Done."
 echo ""

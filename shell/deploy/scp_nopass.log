@@ -1,4 +1,4 @@
 #scp免密码登录
 
 ssh-keygen -b 1024 -t rsa #http://os.51cto.com/art/201304/388084.htm
-scp -p /root/.ssh/id_rsa.pub root@111.223.42.129:/root/.ssh/authorized_keys
+scp -p /root/.ssh/id_rsa.pub root@host:/root/.ssh/authorized_keys
