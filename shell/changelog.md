@@ -1,6 +1,9 @@
 # CHANGE LOG
 
 
+## 2019.12.16
++ show_java_process_thread_stack.sh，查看Java进程CPU使用率高的线程堆栈信息
+
 ## 2019.06.10
 + deploy: 部署工具集
 + net.sh: 网卡流量监测工具
