@@ -1,5 +1,7 @@
 # CHANGE LOG
 
+## 2020.07.20
++ redis_cluster_del_keys.sh, 批量删除redis集群中的指定key
 
 ## 2019.12.16
 + show_java_process_thread_stack.sh，查看Java进程CPU使用率高的线程堆栈信息
