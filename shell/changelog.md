@@ -1,5 +1,10 @@
 # CHANGE LOG
 
+
+
+## 2020.07.31
++ kafka_tools.sh, Kafka命令行工具集
+
 ## 2020.07.20
 + redis_cluster_del_keys.sh, 批量删除redis集群中的指定key
 
